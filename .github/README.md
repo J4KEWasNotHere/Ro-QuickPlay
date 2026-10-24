@@ -1,6 +1,10 @@
-# Ro-QuickPlay - WebExtension
+<div align="center">
 
-Ro-QuickPlay is a local Chrome extension that adds quick launch controls to Roblox game cards.
+<img src="assets/banner.png" alt="Alt text" width="100%">
+
+### Ro-QuickPlay is a local Chrome extension that adds quick launch controls to Roblox game cards.
+
+</div>
 
 ___
 
