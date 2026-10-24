@@ -41,7 +41,7 @@ ___
 
 Ro-QuickPlay is not currently distributed through the Chrome Web Store. To load it locally:
 
-1. Download or clone this repository.
+1. [Download](https://github.com/J4KEWasNotHere/Ro-QuickPlay/archive/refs/heads/main.zip) or clone this repository.
 2. Open `chrome://extensions` in Chrome.
 3. Turn on **Developer mode**.
 4. Select **Load unpacked** and choose the repository folder containing `manifest.json`.
