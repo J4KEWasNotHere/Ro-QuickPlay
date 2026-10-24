@@ -1,0 +1,45 @@
+{
+    "manifest_version": 3,
+    "name": "Ro-QuickPlay",
+    "version": "1.0",
+    "description": "Quickly run your roblox games.",
+    "action": {
+        "default_popup": "src/popup/popup.html",
+
+        "default_icon": {
+            "16": "src/assets/icons/icon16.png",
+            "32": "src/assets/icons/icon32.png",
+            "48": "src/assets/icons/icon48.png",
+            "128": "src/assets/icons/icon128.png"
+        }
+    },
+
+    "icons": {
+        "16": "src/assets/icons/icon16.png",
+        "32": "src/assets/icons/icon32.png",
+        "48": "src/assets/icons/icon48.png",
+        "128": "src/assets/icons/icon128.png"
+    },
+    "permissions": ["storage", "contextMenus"],
+    "host_permissions": ["https://games.roblox.com/*"],
+    "background": {
+        "service_worker": "src/background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.roblox.com/*"],
+            "js": ["src/content.js"],
+            "css": ["src/content.css"],
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "src/assets/play_button/play128.png",
+                "src/assets/play_button/roblox_loading.gif"
+            ],
+            "matches": ["https://www.roblox.com/*"]
+        }
+    ]
+}
