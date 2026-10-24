@@ -7,6 +7,22 @@ ___
 ### Contents
 
 <details>
+<summary>Showcase</summary>
+
+<div align="center">
+
+<img src="assets/image0.png" alt="Alt text" width="50%">
+<img src="assets/image1.png" alt="Alt text" width="50%">
+
+___
+
+<img src="assets/image2.png" alt="Alt text" width="30%">
+
+</div>
+
+</details>
+
+<details>
 <summary>Features</summary>
 
 - Adds a square Play button to Roblox game thumbnails.
@@ -60,6 +76,8 @@ Ro-QuickPlay does not include an analytics service or send settings to an extens
 <summary>Development</summary>
 
 This repository contains a Manifest V3 extension and has no build step. Load the repository folder as an unpacked extension to test local changes.
+
+To review changes on the Roblox website, make sure to reload the website. Including turning the extension on or off.
 
 </details>
 
